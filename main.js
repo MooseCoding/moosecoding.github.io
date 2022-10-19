@@ -29,3 +29,11 @@ function saySomething(_bId, _id){
         }
     }
 }
+
+function myFunc(id){
+document.getElementById(id).innerHTML = "thats bussin";
+}
+
+var button = document.getElementById("hB1");
+var x = document.getElementById("text");
+button.addEventListener("click", myFunc(x);
