@@ -1,0 +1,9 @@
+:root {
+  --site-bg: #0f1115;
+  --site-ink: #e6e6e6;
+  --site-muted: #7a8494;
+  --site-border: #1c2128;
+  --site-surface: #0a0c10;
+  --site-accent: #a8c0d0;
+  color-scheme: dark;
+}

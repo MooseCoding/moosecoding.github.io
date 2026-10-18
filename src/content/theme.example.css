@@ -1,0 +1,29 @@
+/*
+  Local theme: copy this file to theme.css (gitignored) or let predev/prebuild do it
+  when theme.css is missing. Presets live in themes/ (also gitignored).
+*/
+
+:root {
+  --site-bg: #0d1117;
+  --site-ink: #e6edf3;
+  --site-muted: #8b949e;
+  --site-border: #30363d;
+  --site-surface: #161b22;
+  --site-accent: #58a6ff;
+  color-scheme: dark;
+
+  --color-bg: var(--site-bg);
+  --color-ink: var(--site-ink);
+  --color-muted: var(--site-muted);
+  --color-border: var(--site-border);
+  --color-surface: var(--site-surface);
+  --color-accent: var(--site-accent);
+
+  --site-max-width: 48rem;
+  --site-gutter: 1.5rem;
+  --site-section-y: 3rem;
+  --site-hero-y: 4rem;
+  --site-hero-y-lg: 6rem;
+  --site-header-y: 0.75rem;
+  --site-scroll-margin: 4.5rem;
+}

@@ -1,0 +1,51 @@
+/*
+  Site look and feel , edit like src/content/site.ts.
+
+  Pick a color preset: change the @import on the next line to any file in ./themes/
+  (comment out the current line, uncomment or add another).
+
+  Dark:  catppuccin-mocha, catppuccin-macchiato, catppuccin-frappe, dracula, nord,
+         gruvbox-dark, one-dark, tokyo-night, tokyo-night-storm, rose-pine, rose-pine-moon,
+         solarized-dark, ayu-dark, ayu-mirage, github-dark, github-dark-dimmed, everforest-dark,
+         monokai, night-owl, palenight, cobalt, zenburn, material-dark, oceanic-next,
+         jellybeans, base16-eighties, synthwave, horizon, kanagawa, kanagawa-dragon,
+         flexoki-dark, vesper, mountain, matrix, chalkboard, high-contrast-dark, poimandres,
+         halcyon, panda-syntax, city-lights, andromeda, lucario, dusk, campfire, ink,
+         winter-is-coming, shades-of-purple, snazzy, moonlight, slate, ocean, aurora, rust,
+         twilight-mocha,
+         graphite, espresso, moss, storm, midnight, petrol, cherry, void, nebula, blueberry,
+         noctis, bluloco-dark, spacemacs-dark, slack-aubergine, arc-dark
+
+  Light: catppuccin-latte, gruvbox-light, solarized-light, github-light, rose-pine-dawn,
+         ayu-light, flexoki-light, paper, snow, sepia, high-contrast-light, atom-one-light,
+         quiet-light, nord-light, everforest-light, biscuit, tokyo-night-day, lavender, sage,
+         alabaster, newsprint, arctic, sandstone, matcha, honey, cappuccino, raspberry,
+         min-light, light-plus, bluloco-light
+
+  Full list: ls src/content/themes/*.css (minus custom.css)
+
+  Roll your own: edit themes/custom.css, then @import "./themes/custom.css"
+
+  Layout tokens and custom CSS stay in this file.
+*/
+
+@import "./themes/flexoki-dark.css";
+
+:root {
+  --color-bg: var(--site-bg);
+  --color-ink: var(--site-ink);
+  --color-muted: var(--site-muted);
+  --color-border: var(--site-border);
+  --color-surface: var(--site-surface);
+  --color-accent: var(--site-accent);
+
+  --site-max-width: 48rem;
+  --site-gutter: 1.5rem;
+  --site-section-y: 3rem;
+  --site-hero-y: 4rem;
+  --site-hero-y-lg: 6rem;
+  --site-header-y: 0.75rem;
+  --site-scroll-margin: 4.5rem;
+}
+
+/* Optional: your own rules below (e.g. .my-banner { ... }) */
